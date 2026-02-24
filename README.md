@@ -26,78 +26,7 @@
 
 ### What We've Built
 
-Since forking from DocuSeal, we've added over **1,900+ commits** of enhancements and new features, including:
-
-#### 💳 Complete Stripe Billing & Subscription System
-- Full Stripe Checkout integration with promotion codes
-- Customer Portal for self-service subscription management
-- Webhook handling for all subscription lifecycle events
-- Flexible entitlement system supporting both Stripe and manual grants
-- Feature restrictions and paywalls based on subscription status
-- Idempotent event processing to prevent duplicate charges
-
-#### 📊 Comprehensive Analytics & Tracking
-- **Server-side tracking** for Google Analytics 4, Meta (Facebook) Conversions API, Google Ads, X (Twitter), and Customer.io
-- **Background job processing** for reliable event delivery
-- **UTM attribution tracking** across the entire user journey
-- **Click ID capture** (gclid, fbclid, twclid) for accurate conversion attribution
-- **PostHog integration** for product analytics
-- Full funnel tracking: signup → checkout → subscription → document events
-
-#### 🔐 OAuth/SSO Authentication
-- Google OAuth2 integration
-- Microsoft OAuth integration
-- Password-optional authentication for OAuth users
-- Encrypted token storage
-- Automatic account creation in multi-tenant mode
-
-#### 🎯 Multi-Tenant SaaS Features
-- Self-service registration with OTP email verification
-- Per-account subscription and billing management
-- Feature restrictions based on subscription tier
-- Account-level configuration and branding
-- Testing mode for development without Stripe
-
-#### ⏰ Automated Email Reminders
-- Configurable reminder schedules (up to 3 reminders per document)
-- Flexible intervals from 1 hour to 30 days
-- Automatic cascade logic (reminder 2 after reminder 1, etc.)
-- Self-scheduling background jobs for reliability
-- Per-submitter tracking to prevent duplicate sends
-
-#### 🎨 UI/UX Improvements
-- Dark mode support with user preference persistence
-- Revamped login and signup pages
-- Improved templates and submissions pages
-- Redesigned settings interface with conditional visibility
-- Better document management UI
-- Upgrade prompts for non-subscribed users
-
-#### 💬 Live Chat & Support
-- Intercom widget integration
-- Automatic user identification
-- Available across all pages
-
-#### 📄 Enhanced Document Features
-- DOCX/Office document support with automatic PDF conversion
-- Bulk submission operations
-- Improved export functionality
-- Better document processing pipeline
-
-#### 🛠 Development & Deployment
-- Docker development environment
-- Comprehensive `.env.example` with 200+ configuration options
-- Redis integration for background jobs
-- Auto-deploy with zero downtime
-- Conditional storage configuration (local/S3)
-
-#### 🔒 Security & Performance
-- Content Security Policy for all third-party scripts
-- Encrypted OAuth tokens
-- Webhook signature verification
-- Billing cache (2-minute TTL)
-- Rate limiting
-- Transaction-safe billing operations
+Since forking from DocuSeal, our LLM added 2 commits of enhancements and new features.
 
 ## Core Features (Inherited from DocuSeal)
 
